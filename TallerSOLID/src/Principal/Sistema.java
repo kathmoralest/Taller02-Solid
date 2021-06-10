@@ -5,6 +5,8 @@
  */
 package Principal;
 import Adicionales.Aderezo;
+import Adicionales.Crema;
+import Adicionales.Frutilla;
 import Postres.*;
 import Procesos.*;
 import Leche.*;

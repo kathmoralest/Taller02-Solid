@@ -22,4 +22,12 @@ public abstract class Postre {
 	public String getSabor() {
 		return this.sabor;
 	}
+        
+        public void addAderezos(Aderezo aderezo){
+            this.aderezos.add(aderezo);
+        }
+        
+        public void removeAderezo(Aderezo aderezo){
+            this.aderezos.remove(aderezo);
+        }
 }

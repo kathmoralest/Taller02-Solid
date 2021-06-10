@@ -16,9 +16,19 @@ public class Pastel extends Postre {
 		super.aderezos = new ArrayList<>();
 	}
 	
+        @Override
 	public String toString() {
 		return "Pastel{" + "sabor=" + sabor + ", precioParcial=" + precioParcial + ", aderezos=" + aderezos + '}';
 	}
 	
+        @Override
+        public void addAderezos(Aderezo aderezo){
+            super.aderezos.add(aderezo);
+        }
+        
+        @Override
+        public void removeAderezo(Aderezo aderezo){
+            this.aderezos.remove(aderezo);
+        }
 }
 

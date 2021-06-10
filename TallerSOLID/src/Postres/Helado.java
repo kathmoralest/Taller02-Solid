@@ -20,5 +20,15 @@ public class Helado extends Postre {
 	public String toString() {
 		return "Helado{" + "sabor=" + sabor + ", precioParcial=" + precioParcial + ", aderezos=" + aderezos + '}';
 	}
+        
+        @Override
+        public void addAderezos(Aderezo aderezo){
+            super.aderezos.add(aderezo);
+        }
+        
+        @Override
+        public void removeAderezo(Aderezo aderezo){
+            this.aderezos.remove(aderezo);
+        }
 }
 

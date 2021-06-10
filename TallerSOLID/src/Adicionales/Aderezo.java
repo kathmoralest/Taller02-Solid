@@ -11,9 +11,9 @@ package Adicionales;
  */
 public abstract class Aderezo {
   // Atributo nombre del aderezo
-  private String nombre;
+  protected String nombre;
   // Método abstracto para que cada tipo de aderezo sea una subclase de Aderezo e implemente dicho método
-  abstract void setNombre();
+  abstract void setNombre(String nombre);
   
   @Override
   public String toString(){
