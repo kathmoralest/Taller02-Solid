@@ -7,9 +7,16 @@ package Adicionales;
 
 /**
  *
- * @author Pedro Mendoza
+ * @author Katherine Morales Tierra
  */
-public enum Aderezo {
-    MALVAVISCOS,FRUTILLA,CREMA
-    
+public abstract class Aderezo {
+  // Atributo nombre del aderezo
+  private String nombre;
+  // Método abstracto para que cada tipo de aderezo sea una subclase de Aderezo e implemente dicho método
+  abstract setNombre();
+  
+  @Override
+  public String toString(){
+    return nombre.toUpperCase();
+  }
 }
