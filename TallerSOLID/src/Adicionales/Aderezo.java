@@ -13,7 +13,7 @@ public abstract class Aderezo {
   // Atributo nombre del aderezo
   private String nombre;
   // Método abstracto para que cada tipo de aderezo sea una subclase de Aderezo e implemente dicho método
-  abstract setNombre();
+  abstract void setNombre();
   
   @Override
   public String toString(){
