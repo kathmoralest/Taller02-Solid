@@ -43,11 +43,12 @@ Después
 
 
 **5) Clase manejadorDeLeche: El principio que no se cumple es LSP puesto que la clase hija LecheDeslactosada tiene un comportamiento inesperado a la clase padre LecheEntera al tirar una excepción**
+<center>
+  Error de consola | Antes 
+  --- | --- 
+  ![2021-06-10](https://user-images.githubusercontent.com/73547550/121575676-40693180-c9ed-11eb-83eb-acc6c9648982.png) | ![2021-06-10 (1)](https://user-images.githubusercontent.com/73547550/121575700-4828d600-c9ed-11eb-9e93-82c195390645.png)
 
-Error de consola | Antes 
---- | --- ![2021-06-10](https://user-images.githubusercontent.com/73547550/121575676-40693180-c9ed-11eb-83eb-acc6c9648982.png) | ![2021-06-10 (1)](https://user-images.githubusercontent.com/73547550/121575700-4828d600-c9ed-11eb-9e93-82c195390645.png)
-
-<center>  
+  
   Después |
   --- |
   ![image](https://user-images.githubusercontent.com/73547550/121600076-94820f00-ca09-11eb-969d-a7883814c867.png) |
